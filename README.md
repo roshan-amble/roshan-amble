@@ -26,9 +26,14 @@ nothing.
 ## Projects
 
 - **[ssrf-lab](https://github.com/roshan-amble/ssrf-lab)** — a local attack range
-  and a conformance checker for SSRF defenses in HTTP clients. 10 probes, 3
+  and a conformance checker for SSRF defenses in HTTP clients. 17 probes, 3
   clients, and verdicts measured with a canary and a hit counter instead of
-  guessed from error codes. Node's built-in `fetch` reaches 5 of the 10 targets.
+  guessed from error codes. Node's built-in `fetch` reaches 5 of the 10 redirect
+  targets, and a published SSRF-protection package admits 2 address spellings.
+- **[livemigrate](https://github.com/roshan-amble/livemigrate)** — move a
+  Postgres table while writers keep writing, and prove no write was lost. Expand,
+  dual-write, backfill, verify, contract, checked against an independent ledger
+  of what the writers believed they wrote.
 
 ## Contact
 
